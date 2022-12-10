@@ -18,8 +18,8 @@ public class Main {
         System.out.println("Write the names of the residents: ");
         house.setResidentsNames(scanner.next().split(","));
         //----------
-        System.out.println(house.getAddress()+" "+house.getFloorsNumber());
-        System.out.println("-----------");
+        System.out.println("Address:"+house.getAddress()+"Floors number: "+house.getFloorsNumber());
+        System.out.println("--Residents--");
         System.out.println(Arrays.toString(house.getResidentsNames()));
     }
 }
